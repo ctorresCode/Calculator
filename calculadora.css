@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: linear-gradient(to left, rgb(52, 190, 236), violet);
+}
+
+.calculator{
+    background-color: #1c1a1c;
+    width: 450px;
+    height: 680px;
+    position: relative;
+    top: 100px;
+    left: 670px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+button{
+    width: 83px;
+    height: 83px;
+    font-size: 30px;        
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    border-radius: 60px;
+    border-color: transparent;
+    margin: 10px;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.blackWhite{
+    position: relative;
+    bottom: 40px;
+    left: 330px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    border-color: transparent;
+
+}
+
+.resultado{
+    width: 410px;
+    height: 130px;
+    position: relative;
+    top: 6px;
+    left: 5px;
+    font-size: 50px;
+    text-align: right;
+    background-color: transparent;
+    color: white;
+    box-shadow: 2px 2px 50px grey;
+    border-color: transparent;
+    font-family: monospace;
+    border-radius: .5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding: 1.0rem;
+}
+
+
+
+:root{
+
+    --colorNumeros: #f5d546;
+    --borrarColorBlanco: white;
+    --borrarFondoMorado: #4f3eb5;
+    --colorLetraMorada: purple;
+    --colorIgual: #ea4300;
+}
+
+.borrar{
+    background: #4f3eb5;
+    color: white;
+}
+
+.division,.multiplicacion,.menor_que,.resta,.suma, .punto, .cerocero{
+    background-color: var(--colorNumeros)
+}
+
+.siete, .ocho, .nueve, .cuatro, .cinco, .seis, .uno, .dos, .tres, .cero{
+    background-color: #86eca6;
+}
+
+.igual{
+    background-color: #ea4300;
+    color: white;
+}
+
+.division{
+    color: purple;
+}
+
+.multiplicacion{
+    color: purple;
+}
+
+.menor_que{
+    color: purple;
+}
+
+.resta{
+    color: purple;
+}
+
+.suma{
+    color: purple;
+}
+
+.punto{
+    color: purple;
+}
+
+.cerocero{
+    color: purple;
+}
